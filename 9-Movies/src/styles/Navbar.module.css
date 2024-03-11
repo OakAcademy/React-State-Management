@@ -1,0 +1,13 @@
+.navWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  background-color: cadetblue;
+}
+.navWrapper a {
+  color: white;
+  font-weight: 700;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

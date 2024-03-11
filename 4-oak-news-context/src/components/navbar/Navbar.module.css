@@ -1,0 +1,51 @@
+.topUl {
+  display: flex;
+  justify-content: space-around;
+}
+.topUl li {
+  position: relative;
+}
+.topUl li:hover ul {
+  display: block;
+  background-color: black;
+  color: white;
+}
+.topUl a {
+  display: block;
+  padding: 10px;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+p {
+  display: block;
+  padding: 10px;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+.bottomUl {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+.bottomUl li {
+  width: 10rem;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  border-bottom: 1px solid orange;
+  cursor: pointer;
+}
+@media screen and (max-width: 575px) {
+  .topUl {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .topUl li {
+    width: 80%;
+    border-bottom: 1px solid orange;
+  }
+}

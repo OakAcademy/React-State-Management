@@ -1,0 +1,36 @@
+.mainWrapper {
+  background-color: black;
+  text-align: center;
+  padding-bottom: 16px;
+}
+.moviesWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-top: 32px;
+}
+
+.cardWrapper {
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: cadetblue;
+  cursor: pointer;
+}
+.cardWrapper img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+.cardBottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.exportedStyle {
+  padding: 5px 20px;
+  border-radius: 5px;
+}

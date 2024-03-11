@@ -1,0 +1,50 @@
+.formWrapper {
+  width: 100%;
+  height: calc(100vh - 40px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://aiesec.org.tr/wp-content/uploads/2017/12/ik-film-onerileri-a.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  gap: 10px;
+  border-radius: 16px;
+  background-color: black;
+  color: white;
+}
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.inputWrapper input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+}
+.form button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.form button:hover {
+  background-color: green;
+  color: white;
+}
+@media screen and (max-width: 1024px) {
+  .form {
+    width: 80%;
+  }
+}

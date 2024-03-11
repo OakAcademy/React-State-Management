@@ -1,0 +1,12 @@
+.dark {
+  background-color: black;
+  color: white;
+}
+.container {
+  height: 100vh;
+  padding: 15px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
